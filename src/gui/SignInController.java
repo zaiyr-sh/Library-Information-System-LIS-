@@ -33,7 +33,7 @@ public class SignInController {
     private Pane paneInformation;
 
     @FXML
-    private TextField txtUsername;
+    private TextField txtEmail;
 
     @FXML
     private PasswordField txtPassword;
@@ -50,11 +50,11 @@ public class SignInController {
     @FXML
     void initialize() {
         btnSignIn.setOnAction(event -> {
-            String usernameText = txtUsername.getText().trim(); // trim() for deleting spaces
+            String emailText = txtEmail.getText().trim(); // trim() for deleting spaces
             String passwordText = txtPassword.getText().trim(); // trim() for deleting spaces
 
-            if (!usernameText.equals("") && !passwordText.equals("")) {
-                loginUser(usernameText, passwordText);
+            if (!emailText.equals("") && !passwordText.equals("")) {
+                loginUser(emailText, passwordText);
             } else {
                 lblErrors.setTextFill(Color.TOMATO);
                 lblErrors.setText("Login and/or password are empty");
@@ -94,6 +94,8 @@ public class SignInController {
         } else {
             Shake paneAnimation = new Shake(paneInformation);
             paneAnimation.playAnimation();
+            lblErrors.setTextFill(Color.TOMATO);
+            lblErrors.setText("Login and/or password are incorrect");
         }
     }
 
