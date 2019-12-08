@@ -90,7 +90,7 @@ public class SignInController {
         }
 
         if(counter >= 1){
-            openNewScene("/gui/SignUp.fxml");
+            openNewScene("/gui/MainPanel.fxml");
         } else {
             Shake paneAnimation = new Shake(paneInformation);
             paneAnimation.playAnimation();
