@@ -9,6 +9,7 @@ import classes.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -66,7 +67,20 @@ public class SignUpController {
         });
 
         btnSignIn.setOnAction(event -> {
-            openNewScene("/gui/SignIn.fxml");
+//            openNewScene("/gui/SignIn.fxml");
+            try{
+                Parent tableViewParent = FXMLLoader.load(getClass().getResource("/gui/SignIn.fxml"));
+                Scene tableViewScene = new Scene(tableViewParent);
+
+                //This line gets the Stage information
+                Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+                window.setScene(tableViewScene);
+                window.show();
+            }
+            catch (Exception ex){
+                ex.printStackTrace();
+            }
         });
 
     }

@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.event.ActionEvent;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -13,9 +14,15 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.geometry.Insets;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.util.Callback;
 
 public class MainPanelController {
@@ -27,16 +34,113 @@ public class MainPanelController {
     private URL location;
 
     @FXML
-    private TableView tblData;
+    private Button btnBooks;
+
+    @FXML
+    private Button btnMembers;
+
+    @FXML
+    private Button btnPersonalInfo;
+
+    @FXML
+    private Button btnSettings;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private GridPane pnAbout;
+
+    @FXML
+    private GridPane pnSettings;
+
+    @FXML
+    private GridPane pnBooks;
+
+    @FXML
+    private GridPane pnPersonalInfo;
+
+    @FXML
+    private GridPane pnMembers;
+
+    @FXML
+    private Pane pnlStatus;
+
+    @FXML
+    private Label lblMiniStatus;
 
     @FXML
     private Label lblStatus;
+
+    @FXML
+    private TableView tblData;
+
+    @FXML
+    private ImageView btnClose;
+
 
     @FXML
     void initialize() {
         fetchColumnList();
         fetchRowList();
 
+    }
+
+    @FXML
+    public void handleClicks(javafx.event.ActionEvent event) {
+        if (event.getSource() == btnBooks) {
+            lblMiniStatus.setText("/home/Books");
+            lblStatus.setText("Books");
+            pnlStatus.setBackground(new Background(new BackgroundFill(Color.rgb(113,86,61), CornerRadii.EMPTY, Insets.EMPTY)));
+            pnBooks.setVisible(true);
+            pnAbout.setVisible(false);
+            pnSettings.setVisible(false);
+            pnPersonalInfo.setVisible(false);
+            pnMembers.setVisible(false);
+        } else if (event.getSource() == btnMembers) {
+            lblMiniStatus.setText("/home/Members");
+            lblStatus.setText("Members");
+            pnlStatus.setBackground(new Background(new BackgroundFill(Color.rgb(43,63,99), CornerRadii.EMPTY, Insets.EMPTY)));
+            pnMembers.setVisible(true);
+            pnAbout.setVisible(false);
+            pnSettings.setVisible(false);
+            pnPersonalInfo.setVisible(false);
+            pnBooks.setVisible(false);
+        } else if (event.getSource() == btnPersonalInfo) {
+            lblMiniStatus.setText("/home/Personal information");
+            lblStatus.setText("Personal Information");
+            pnlStatus.setBackground(new Background(new BackgroundFill(Color.rgb(43, 99, 63), CornerRadii.EMPTY, Insets.EMPTY)));
+            pnPersonalInfo.setVisible(true);
+            pnAbout.setVisible(false);
+            pnSettings.setVisible(false);
+            pnBooks.setVisible(false);
+            pnMembers.setVisible(false);
+        } else if (event.getSource() == btnSettings) {
+            lblMiniStatus.setText("/home/Settings");
+            lblStatus.setText("Settings");
+            pnlStatus.setBackground(new Background(new BackgroundFill(Color.rgb(99, 43, 63), CornerRadii.EMPTY, Insets.EMPTY)));
+            pnSettings.setVisible(true);
+            pnAbout.setVisible(false);
+            pnBooks.setVisible(false);
+            pnPersonalInfo.setVisible(false);
+            pnMembers.setVisible(false);
+        } else if (event.getSource() == btnAbout) {
+            lblMiniStatus.setText("/home/About");
+            lblStatus.setText("About");
+            pnlStatus.setBackground(new Background(new BackgroundFill(Color.rgb(42,28,66), CornerRadii.EMPTY, Insets.EMPTY)));
+            pnAbout.setVisible(true);
+            pnBooks.setVisible(false);
+            pnSettings.setVisible(false);
+            pnPersonalInfo.setVisible(false);
+            pnMembers.setVisible(false);
+        }
+    }
+
+    @FXML
+    void handleClose(MouseEvent event) {
+        if (event.getSource() == btnClose) {
+            System.exit(0);
+        }
     }
 
     PreparedStatement preparedStatement;
@@ -50,13 +154,11 @@ public class MainPanelController {
     private ObservableList<ObservableList> data;
     String SQL = "SELECT * from useraccounts";
 
-    //only fetch columns
     private void fetchColumnList() {
 
         try {
             ResultSet rs = connection.createStatement().executeQuery(SQL);
 
-            //SQL FOR SELECTING ALL OF CUSTOMER
             for (int i = 0; i < rs.getMetaData().getColumnCount(); i++) {
                 //We are using non property style for making dynamic table
                 final int j = i;
@@ -80,7 +182,6 @@ public class MainPanelController {
         }
     }
 
-    //fetches rows and data from the list
     private void fetchRowList() {
         data = FXCollections.observableArrayList();
         ResultSet rs;
@@ -88,10 +189,8 @@ public class MainPanelController {
             rs = connection.createStatement().executeQuery(SQL);
 
             while (rs.next()) {
-                //Iterate Row
                 ObservableList row = FXCollections.observableArrayList();
                 for (int i = 1; i <= rs.getMetaData().getColumnCount(); i++) {
-                    //Iterate Column
                     row.add(rs.getString(i));
                 }
                 System.out.println("Row [1] added " + row);
@@ -104,114 +203,7 @@ public class MainPanelController {
             System.err.println(ex.getMessage());
         }
     }
+
+
 }
 
-//import java.net.URL;
-//import java.sql.Connection;
-//import java.sql.ResultSet;
-//
-//import DataAccess.DatabaseHandler;
-//import javafx.application.Application;
-//import javafx.beans.property.SimpleStringProperty;
-//import javafx.beans.value.ObservableValue;
-//import javafx.collections.FXCollections;
-//import javafx.collections.ObservableList;
-//import javafx.fxml.FXML;
-//import javafx.scene.Scene;
-//import javafx.scene.control.Label;
-//import javafx.scene.control.TableColumn;
-//import javafx.scene.control.TableColumn.CellDataFeatures;
-//import javafx.scene.control.TableView;
-//import javafx.stage.Stage;
-//import javafx.util.Callback;
-//
-//import java.util.ResourceBundle;
-//
-//public class MainPanelController extends Application {
-//
-//    //TABLE VIEW AND DATA
-//    private ObservableList<ObservableList> data;
-//
-//    @FXML
-//    private ResourceBundle resources;
-//
-//    @FXML
-//    private URL location;
-//
-//    @FXML
-//    private TableView<ObservableList> tblData;
-//
-//    @FXML
-//    private Label lblStatus;
-//
-//    //MAIN EXECUTOR
-//    public static void main(String[] args) {
-//        launch(args);
-//    }
-//
-//    //CONNECTION DATABASE
-//    public void buildData(){
-//        Connection c ;
-//        DatabaseHandler databaseHandler = new DatabaseHandler();
-//        data = FXCollections.observableArrayList();
-//        try{
-//            c = databaseHandler.getDbConnection();
-//            //SQL FOR SELECTING ALL OF CUSTOMER
-//            String SQL = "SELECT * from useraccounts";
-//            //ResultSet
-//            ResultSet rs = c.createStatement().executeQuery(SQL);
-//
-//            /**********************************
-//             * TABLE COLUMN ADDED DYNAMICALLY *
-//             **********************************/
-//            for(int i=0 ; i<rs.getMetaData().getColumnCount(); i++){
-//                //We are using non property style for making dynamic table
-//                final int j = i;
-//                TableColumn col = new TableColumn(rs.getMetaData().getColumnName(i+1));
-//                col.setCellValueFactory(new Callback<CellDataFeatures<ObservableList,String>, ObservableValue<String>>(){
-//                    public ObservableValue<String> call(CellDataFeatures<ObservableList, String> param) {
-//                        return new SimpleStringProperty(param.getValue().get(j).toString());
-//                    }
-//                });
-//
-//                tblData.getColumns().addAll(col);
-//                System.out.println("Column ["+i+"] ");
-//            }
-//
-//            /********************************
-//             * Data added to ObservableList *
-//             ********************************/
-//            while(rs.next()){
-//                //Iterate Row
-//                ObservableList<String> row = FXCollections.observableArrayList();
-//                for(int i=1 ; i<=rs.getMetaData().getColumnCount(); i++){
-//                    //Iterate Column
-//                    row.add(rs.getString(i));
-//                }
-//                System.out.println("Row [1] added "+row );
-//                data.add(row);
-//
-//            }
-//
-//            //FINALLY ADDED TO TableView
-//            tblData.setItems(data);
-//        }catch(Exception e){
-//            e.printStackTrace();
-//            System.out.println("Error on Building Data");
-//        }
-//    }
-//
-//
-//    @Override
-//    public void start(Stage stage) throws Exception {
-//        //TableView
-//        tblData = new TableView();
-//        buildData();
-//
-//        //Main Scene
-//        Scene scene = new Scene(tblData);
-//
-//        stage.setScene(scene);
-//        stage.show();
-//    }
-//}

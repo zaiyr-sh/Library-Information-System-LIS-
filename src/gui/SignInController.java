@@ -8,9 +8,13 @@ import java.util.ResourceBundle;
 
 import DataAccess.DatabaseHandler;
 import animations.Shake;
+import classes.Admin;
 import classes.User;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -62,7 +66,20 @@ public class SignInController {
         });
 
         btnSignUp.setOnAction(event -> {
-            openNewScene("/gui/SignUp.fxml");
+//            openNewScene("/gui/SignUp.fxml");
+            try{
+                Parent tableViewParent = FXMLLoader.load(getClass().getResource("/gui/SignUp.fxml"));
+                Scene tableViewScene = new Scene(tableViewParent);
+
+                //This line gets the Stage information
+                Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+                window.setScene(tableViewScene);
+                window.show();
+            }
+            catch (Exception ex){
+                ex.printStackTrace();
+            }
         });
 
     }
@@ -74,22 +91,27 @@ public class SignInController {
         user.setUserName(usernameText);
         user.setPassword(passwordText);
 
+        Admin admin = new Admin();
+        admin.setEmail(usernameText);
+        admin.setPassword(passwordText);
+
 //        dbHandler.getUser(user);
 
-        ResultSet resultSet = dbHandler.getUser(user); //выделить память
+        ResultSet userResultSet = dbHandler.getUser(user); //выделить память
+        ResultSet adminResultSet = dbHandler.getAdmin(admin);
 
-        int counter = 0;
+        int userCounter = 0;
 
         while(true){
             try {
-                if (!resultSet.next()) break;
+                if (!userResultSet.next()) break;
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            counter++;
+            userCounter++;
         }
 
-        if(counter >= 1){
+        if(userCounter >= 1){
             openNewScene("/gui/MainPanel.fxml");
         } else {
             Shake paneAnimation = new Shake(paneInformation);
@@ -97,6 +119,49 @@ public class SignInController {
             lblErrors.setTextFill(Color.TOMATO);
             lblErrors.setText("Login and/or password are incorrect");
         }
+
+        int adminCounter = 0;
+
+        while(true){
+            try {
+                if (!adminResultSet.next()) break;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            adminCounter++;
+        }
+
+        if(adminCounter >= 1){
+            openNewScene("/gui/MainAdmin.fxml");
+        } else {
+            Shake paneAnimation = new Shake(paneInformation);
+            paneAnimation.playAnimation();
+            lblErrors.setTextFill(Color.TOMATO);
+            lblErrors.setText("Login and/or password are incorrect");
+        }
+
+//        for(Admin adminobj:adminInfoList){
+//            if(adminobj.getEmail().equals(usernameText) && adminobj.getPassword().equals(passwordText)){
+//                try {
+//
+//                    //add you loading or delays - ;-)
+//                    Node node = (Node) e.getSource();
+//                    Stage stage = (Stage) node.getScene().getWindow();
+//                    //stage.setMaximized(true);
+//                    stage.close();
+//                    Scene scene = new Scene(FXMLLoader.load(getClass().getResource("adminHomepage.fxml")));
+//                    stage.setScene(scene);
+//                    stage.show();
+//
+//                } catch (IOException ex) {
+//                    System.err.println(ex.getMessage());
+//                }
+//            }
+//            else{
+//                notification.setText("Wrong E/P");
+//                break;
+//            }
+//        }
     }
 
 
