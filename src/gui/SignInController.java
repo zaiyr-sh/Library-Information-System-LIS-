@@ -52,6 +52,9 @@ public class SignInController {
     private Label lblErrors;
 
     @FXML
+    private Button btnExit;
+
+    @FXML
     void initialize() {
         btnSignIn.setOnAction(event -> {
             String emailText = txtEmail.getText().trim(); // trim() for deleting spaces
@@ -82,6 +85,9 @@ public class SignInController {
             }
         });
 
+        btnExit.setOnAction(event -> {
+            System.exit(0);
+        });
     }
 
     private void loginUser(String usernameText, String passwordText) {

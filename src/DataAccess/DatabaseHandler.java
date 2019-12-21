@@ -169,9 +169,10 @@ public class DatabaseHandler extends Configurations{
         Connection conn=getDbConnection();
         Statement statement=conn.createStatement();
 
-        String query= "UPDATE bookinfo "
-                + "SET Title ='"+bookinfo.getTitle()+"',Author='"+bookinfo.getAuthor()+"',Publisher='"+bookinfo.getPublisher()+"',numberOfCopies="+bookinfo.getNumcopies()
-                + "WHERE ISBN = '"+bookinfo.getIsbn()+"'";
+        String query = "UPDATE bookinfo "
+                + "SET Title ='"+bookinfo.getTitle()+"',Author='"+bookinfo.getAuthor()+"',Publisher='"+bookinfo.getPublisher()+"',numberOfCopies='"+bookinfo.getNumcopies()
+                + "' WHERE ISBN = '"+bookinfo.getIsbn()+"'";
+//        String query = "UPDATE bookinfo set Title=?, Author=?, Publisher=?, numbersOfCopies=? where ISBN=?";
         if(statement.executeUpdate(query)>0){
             return "bookinfo updated successfully";
         }else{

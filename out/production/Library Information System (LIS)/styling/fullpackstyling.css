@@ -9,6 +9,16 @@
 -fx-background-color : #355ECE ;
 -fx-text-fill:  #FFF;
 }
+
+#btnExit {
+    -fx-border-color: #ce0c00;
+}
+
+#btnExit:hover {
+    -fx-background-color : #ce0900;
+    -fx-text-fill:  #FFF;
+}
+
 .button:pressed
 {
 -fx-background-color : #0C39FF ;
