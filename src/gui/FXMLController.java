@@ -42,7 +42,6 @@ public class FXMLController implements Initializable {
     static ObservableList<User> userInfoList=FXCollections.observableArrayList();
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
         DatabaseHandler dbAction=new DatabaseHandler();
         try {
             userInfoList=dbAction.getAlluserInfo();
@@ -55,96 +54,96 @@ public class FXMLController implements Initializable {
 
 
 
-    @FXML
-    private void signUpAction(ActionEvent event) throws IOException, SQLException {
-
-        if(userIDField.getText().equals("")) return;
-
-        else {
-            int id=Integer.parseInt(userIDField.getText());
-            String name=NameField.getText();
-            String email=EmailField.getText();
-            String password=encryptThisString(PasswordField.getText());
-            String confirmpass=encryptThisString(ConfirmpassField.getText());
-
-            if(!email.contains("@gmail.com")){
-                Alert alert = new Alert(AlertType.INFORMATION);
-                alert.setTitle("Information Dialog");
-                alert.setHeaderText(null);
-                alert.setContentText("Invalid Email");
-
-                alert.showAndWait();
-
-            }
-
-
-            if((!password.equals(confirmpass)) || (PasswordField.getText().length()<7)){
-                Alert alert = new Alert(AlertType.INFORMATION);
-                alert.setTitle("Information Dialog");
-                alert.setHeaderText(null);
-                alert.setContentText("Password doesnt match or length is short or invalid email");
-
-                alert.showAndWait();
-
-
-            }
-            else{
-//                User userobj=new User(firstName, lastName, email,password, gender, phoneNumber, address);
+//    @FXML
+//    private void signUpAction(ActionEvent event) throws IOException, SQLException {
+//
+//        if(userIDField.getText().equals("")) return;
+//
+//        else {
+//            int id=Integer.parseInt(userIDField.getText());
+//            String name=NameField.getText();
+//            String email=EmailField.getText();
+//            String password=encryptThisString(PasswordField.getText());
+//            String confirmpass=encryptThisString(ConfirmpassField.getText());
+//
+//            if(!email.contains("@gmail.com")){
+//                Alert alert = new Alert(AlertType.INFORMATION);
+//                alert.setTitle("Information Dialog");
+//                alert.setHeaderText(null);
+//                alert.setContentText("Invalid Email");
+//
+//                alert.showAndWait();
+//
+//            }
 //
 //
+//            if((!password.equals(confirmpass)) || (PasswordField.getText().length()<7)){
+//                Alert alert = new Alert(AlertType.INFORMATION);
+//                alert.setTitle("Information Dialog");
+//                alert.setHeaderText(null);
+//                alert.setContentText("Password doesnt match or length is short or invalid email");
 //
-//                //database action
-//                DatabaseHandler dbAction=new DatabaseHandler();
-//                dbAction.adduserInfo(userobj);
+//                alert.showAndWait();
 //
 //
-//                NameField.clear();
-//                EmailField.clear();
-//                userIDField.clear();
-//                ConfirmpassField.clear();
-//                PasswordField.clear();
-            }
+//            }
+//            else{
+////                User userobj=new User(firstName, lastName, email,password, gender, phoneNumber, address);
+////
+////
+////
+////                //database action
+////                DatabaseHandler dbAction=new DatabaseHandler();
+////                dbAction.adduserInfo(userobj);
+////
+////
+////                NameField.clear();
+////                EmailField.clear();
+////                userIDField.clear();
+////                ConfirmpassField.clear();
+////                PasswordField.clear();
+//            }
+//
+//            //if(name.equals("") && email.equals("")) return;
+//        }
+//
+//    }
 
-            //if(name.equals("") && email.equals("")) return;
-        }
-
-    }
-
-    @FXML
-    private void emailfieldAction(KeyEvent event) {
-        notification.setText("");
-        String email=EmailField.getText();
-
-        for(User userobj:userInfoList){
-            if(userobj.getUserName().equals(email)){
-                notification.setText("Not available");
-                break;
-            }
-        }
-    }
-
-    public static String encryptThisString(String pass)
-    {
-        try {
-            // getInstance() method is called with algorithm MD2
-            MessageDigest md = MessageDigest.getInstance("MD2");
-
-            byte[] messageDigest = md.digest(pass.getBytes());
-
-            BigInteger no = new BigInteger(1, messageDigest);
-
-            String hashtext = no.toString(16);
-
-            while (hashtext.length() < 32) {
-                hashtext = "0" + hashtext;
-            }
-
-            return hashtext;
-        }
-
-        catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        }
-    }
+//    @FXML
+//    private void emailfieldAction(KeyEvent event) {
+//        notification.setText("");
+//        String email=EmailField.getText();
+//
+//        for(User userobj:userInfoList){
+//            if(userobj.getUserName().equals(email)){
+//                notification.setText("Not available");
+//                break;
+//            }
+//        }
+//    }
+//
+//    public static String encryptThisString(String pass)
+//    {
+//        try {
+//            // getInstance() method is called with algorithm MD2
+//            MessageDigest md = MessageDigest.getInstance("MD2");
+//
+//            byte[] messageDigest = md.digest(pass.getBytes());
+//
+//            BigInteger no = new BigInteger(1, messageDigest);
+//
+//            String hashtext = no.toString(16);
+//
+//            while (hashtext.length() < 32) {
+//                hashtext = "0" + hashtext;
+//            }
+//
+//            return hashtext;
+//        }
+//
+//        catch (NoSuchAlgorithmException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
 
 }

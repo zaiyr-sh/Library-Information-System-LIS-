@@ -4,27 +4,42 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change afterPath="E:/Web design/Hotel/.idea/Hotel.iml" afterDir="false" />
       <change afterPath="E:/Web design/start_html-master/.idea/start_html-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/AdminTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/BookInfoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/IssuedBookTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/DataAccess/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/DataAccess/DatabaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/Tests/BookInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/Tests/BookInfoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/Tests/IssuedBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/Tests/IssuedBookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/BookInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/BookInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/IssuedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/classes/IssuedBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAddBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAddBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAddBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAddBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAllBooks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAllBooks.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAllBooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/AdminAllBooksController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/FXMLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/FXMLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainAdmin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainAdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanelController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanelController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanelController$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/MainPanelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/SignIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/SignIn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/SignInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/gui/SignInController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library Information System (LIS)/styling/fullpackstyling.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library Information System (LIS)/styling/fullpackstyling.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataAccess/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataAccess/UserConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/BookInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/BookInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/IssuedBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/IssuedBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/BookInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/IssuedBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/IssuedBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/AdminAddBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AdminAddBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/AdminAddBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AdminAddBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/AdminAllBooks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AdminAllBooks.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/AdminAllBooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AdminAllBooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/FXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/MainAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainAdmin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/MainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainAdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/MainPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainPanel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/MainPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainPanelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SignIn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styling/fullpackstyling.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styling/fullpackstyling.css" afterDir="false" />
       <change beforePath="E:/Makers Bootstrap/Casablanca-PSD/.idea/Casablanca-PSD.iml" beforeDir="false" />
       <change beforePath="E:/Makers Bootstrap/Casablanca-PSD/.idea/misc.xml" beforeDir="false" />
       <change beforePath="E:/Makers Bootstrap/Casablanca-PSD/.idea/modules.xml" beforeDir="false" />
@@ -100,53 +115,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="172" column="74" selection-start-line="172" selection-start-column="74" selection-end-line="172" selection-end-column="74" />
+            <state relative-caret-position="238">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getUser#0;class#DatabaseHandler#0" />
-                <element signature="method#getAdmin#0;class#DatabaseHandler#0" />
-                <element signature="method#getAllbookInfo#0;class#DatabaseHandler#0" />
-                <element signature="method#addbookInfo#0;class#DatabaseHandler#0" />
-                <element signature="e#4477#4565#0" />
-                <element signature="method#getAlluserInfo#0;class#DatabaseHandler#0" />
-                <element signature="method#deletebooks#0;class#DatabaseHandler#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainPanelController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="418" column="25" lean-forward="true" selection-start-line="418" selection-start-column="25" selection-end-line="418" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1577279742321" expanded="true" signature="13:17961" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/AdminAllBooksController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/MainAdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/SignInController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="147">
+              <caret line="93" column="91" selection-start-line="93" selection-start-column="91" selection-end-line="93" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,48 +176,59 @@
         <option value="$PROJECT_DIR$/src/sample/Login.fxml" />
         <option value="$PROJECT_DIR$/src/sample/LoginController.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/gui/Main.java" />
         <option value="$PROJECT_DIR$/src/gui/Login.fxml" />
         <option value="$PROJECT_DIR$/src/gui/SignIn.fxml" />
         <option value="$PROJECT_DIR$/src/DataAccess/Constants.java" />
-        <option value="$PROJECT_DIR$/src/DataAccess/UserConstants.java" />
         <option value="$PROJECT_DIR$/src/gui/SignUp.fxml" />
         <option value="$PROJECT_DIR$/src/animations/Shake.java" />
         <option value="$PROJECT_DIR$/src/gui/ModalWindow.java" />
         <option value="$PROJECT_DIR$/src/de/jensd/fx/glyphs/fontawesome/FontAwesomeIconView.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainPanel.fxml" />
-        <option value="$PROJECT_DIR$/src/css/fullpackstyling.css" />
         <option value="$PROJECT_DIR$/src/gui/SignUpController.java" />
-        <option value="$PROJECT_DIR$/src/classes/Admin.java" />
         <option value="$PROJECT_DIR$/src/gui/MainAdmin.fxml" />
-        <option value="$PROJECT_DIR$/src/classes/BookInfo.java" />
         <option value="$PROJECT_DIR$/src/DataAccess/Configurations.java" />
-        <option value="$PROJECT_DIR$/src/classes/User.java" />
         <option value="$PROJECT_DIR$/src/gui/AdminAddBook.fxml" />
         <option value="$PROJECT_DIR$/src/gui/AdminAllBooks.fxml" />
-        <option value="$PROJECT_DIR$/src/gui/AdminAddBookController.java" />
-        <option value="$PROJECT_DIR$/src/gui/FXMLController.java" />
         <option value="$PROJECT_DIR$/src/classes/AdminTest.java" />
-        <option value="$PROJECT_DIR$/src/classes/BookInfoTest.java" />
         <option value="$PROJECT_DIR$/src/classes/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/classes/IssuedBook.java" />
         <option value="$PROJECT_DIR$/src/classes/IssuedBookTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainPanelController.java" />
-        <option value="$PROJECT_DIR$/src/gui/SignInController.java" />
         <option value="$PROJECT_DIR$/src/styling/fullpackstyling.css" />
-        <option value="$PROJECT_DIR$/src/gui/MainAdminController.java" />
-        <option value="$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/gui/UserAllIssuedBooks.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/ToIssueBook.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/UserAllIssuedBooksController.java" />
+        <option value="$PROJECT_DIR$/src/gui/ReturnBook.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/UserAllBooksController.java" />
         <option value="$PROJECT_DIR$/src/gui/AdminAllBooksController.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainPanel.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/UserAllBooks.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/ToIssueBookController.java" />
+        <option value="$PROJECT_DIR$/src/gui/ReturnBookController.java" />
+        <option value="$PROJECT_DIR$/src/gui/AdminAddBookController.java" />
+        <option value="$PROJECT_DIR$/src/classes/BookInfo.java" />
+        <option value="$PROJECT_DIR$/src/classes/Person.java" />
+        <option value="$PROJECT_DIR$/src/classes/Admin.java" />
+        <option value="$PROJECT_DIR$/src/classes/User.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainAdminController.java" />
+        <option value="$PROJECT_DIR$/src/css/fullpackstyling.css" />
+        <option value="$PROJECT_DIR$/src/gui/MainPanelController.java" />
+        <option value="$PROJECT_DIR$/src/Tests/IssuedBookTest.java" />
+        <option value="$PROJECT_DIR$/src/classes/BookInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/BookInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/classes/IssuedBook.java" />
+        <option value="$PROJECT_DIR$/src/DataAccess/UserConstants.java" />
+        <option value="$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/gui/FXMLController.java" />
+        <option value="$PROJECT_DIR$/src/gui/Main.java" />
+        <option value="$PROJECT_DIR$/src/gui/SignInController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -231,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +250,12 @@
               <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Library Information System (LIS)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library Information System (LIS)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="animations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
@@ -272,13 +285,7 @@
               <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Library Information System (LIS)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Library Information System (LIS)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Library Information System (LIS)" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +296,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,12 +314,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576956524901" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577339455292" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library_project/LibraryManagementSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library_project" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -321,6 +329,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="classes" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IAAU\Library Information System (LIS)\src\gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests" />
+      <recent name="animations" />
+      <recent name="sample" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -328,14 +344,6 @@
       <recent name="E:\IAAU\Library Information System (LIS)\src" />
       <recent name="E:\IAAU\Library Information System (LIS)\src\gui" />
       <recent name="E:\IAAU\Library Information System (LIS)\src\sample" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Tests" />
-      <recent name="animations" />
-      <recent name="sample" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IAAU\Library Information System (LIS)\src\gui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BookInfoTest">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -391,6 +399,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library Information System (LIS)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AdminTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library Information System (LIS)" />
       <extension name="coverage">
@@ -401,26 +427,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.BookInfoTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookInfoTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Library Information System (LIS)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BookInfoTest" />
-      <option name="METHOD_NAME" value="toStringTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -516,11 +522,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookInfoTest" />
         <item itemvalue="JUnit.IssuedBookTest" />
         <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.AdminTest" />
         <item itemvalue="JUnit.UserTest.setLastNameTest" />
-        <item itemvalue="JUnit.BookInfoTest" />
-        <item itemvalue="JUnit.BookInfoTest.toStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -539,26 +545,13 @@
       <workItem from="1575812133682" duration="4448000" />
       <workItem from="1575866669949" duration="1118000" />
       <workItem from="1575896864348" duration="7287000" />
-      <workItem from="1575965540257" duration="25396000" />
+      <workItem from="1575965540257" duration="37575000" />
+      <workItem from="1577019543566" duration="2517000" />
+      <workItem from="1577085301830" duration="42306000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookInfoTest - 2019.12.18 at 13h 59m 50s.xml">
-      <configuration name="BookInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookInfoTest_toStringTest - 2019.12.18 at 14h 00m 19s.xml">
-      <configuration name="BookInfoTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookInfoTest_toStringTest - 2019.12.18 at 14h 00m 44s.xml">
-      <configuration name="BookInfoTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookInfoTest - 2019.12.18 at 14h 01m 05s.xml">
-      <configuration name="BookInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_setLastNameTest - 2019.12.18 at 14h 05m 21s.xml">
-      <configuration name="UserTest.setLastNameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest - 2019.12.18 at 14h 09m 49s.xml">
       <configuration name="UserTest" configurationId="JUnit" />
     </history-entry>
@@ -574,15 +567,30 @@
     <history-entry file="IssuedBookTest - 2019.12.18 at 14h 21m 32s.xml">
       <configuration name="IssuedBookTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AdminTest - 2019.12.26 at 07h 19m 39s.xml">
+      <configuration name="AdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.12.26 at 07h 19m 49s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IssuedBookTest - 2019.12.26 at 07h 22m 29s.xml">
+      <configuration name="IssuedBookTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookInfoTest - 2019.12.26 at 07h 35m 25s.xml">
+      <configuration name="BookInfoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookInfoTest - 2019.12.26 at 07h 36m 16s.xml">
+      <configuration name="BookInfoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61924000" />
+    <option name="totallyTimeSpent" value="118926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14674735" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,7 +599,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29032257" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32104453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,10 +610,10 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32824427" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32718894" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="16" weight="0.28244275" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.2857143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,7 +627,7 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25716442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19271624" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -628,7 +636,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3648855" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2890625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,10 +647,10 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32824427" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.328125" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.2859375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -668,65 +676,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Login.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/gui/SignUp.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/ModalWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/gui/Dashboard.fxml" />
     <entry file="file://$PROJECT_DIR$/src/gui/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/de/jensd/fx/glyphs/fontawesome/FontAwesomeIconView.java" />
-    <entry file="file://$PROJECT_DIR$/src/css/fullpackstyling.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataAccess/Configurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/AdminAddBook.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainAdmin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,7 +697,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="144.99999999999994" y="190.61111111111111" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="145.0" y="191.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -751,29 +708,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="88" column="182" selection-start-line="88" selection-start-column="182" selection-end-line="88" selection-end-column="182" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,194 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/IssuedBookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/BookInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/BookInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/IssuedBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="42" column="94" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataAccess/UserConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/animations/Shake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/AdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/FXMLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainPanel.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="36" column="128" selection-start-line="36" selection-start-column="128" selection-end-line="36" selection-end-column="128" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/SignUpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/SignIn.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-322">
@@ -986,23 +732,28 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styling/fullpackstyling.css">
+    <entry file="jar://E:/MySQL_Installation/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="185">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainPanelController.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/UserAllIssuedBooks.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="148" column="9" lean-forward="true" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1576954146792" expanded="true" signature="13:9448" ph="..." />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/ReturnBook.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="181" selection-start-line="9" selection-start-column="181" selection-end-line="9" selection-end-column="181" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/AdminAllBooks.fxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1012,27 +763,400 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/AdminAddBookController.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/AdminAddBook.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/UserAllBooks.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="4" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="uml://JAVA/classes.Admin">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>classes.Admin</OriginalElement>
+          <nodes>
+            <node x="" y="">classes.Admin</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8" x="102.00000000000011" y="81.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/ToIssueBook.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/UserAllBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainAdmin.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="uml://JAVA/classes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>classes</OriginalElement>
+          <nodes>
+            <node x="61.0" y="345.0">classes.IssuedBook</node>
+            <node x="0.0" y="553.0">classes.Admin</node>
+            <node x="449.0" y="0.0">classes.User</node>
+            <node x="0.0" y="0.0">classes.BookInfo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="classes.IssuedBook" target="classes.BookInfo">
+              <point x="0.0" y="-81.5" />
+              <point x="0.0" y="147.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0815217391304348" x="130.66080402010047" y="201.90954773869345" />
+          <SelectedNodes>
+            <node>classes.IssuedBook</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gui">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gui</OriginalElement>
+          <nodes>
+            <node x="" y="">gui.UserAllIssuedBooksController</node>
+            <node x="" y="">gui.AdminAddBookController</node>
+            <node x="" y="">gui.SignUpController</node>
+            <node x="" y="">gui.ToIssueBookController</node>
+            <node x="" y="">gui.SignInController</node>
+            <node x="" y="">gui.MainAdminController</node>
+            <node x="" y="">gui.Main</node>
+            <node x="" y="">gui.FXMLController</node>
+            <node x="" y="">gui.MainPanelController</node>
+            <node x="" y="">gui.AdminAllBooksController</node>
+            <node x="" y="">gui.ReturnBookController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9624156958920906" x="561.1153086577053" y="1414.1298337261896" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DataAccess">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DataAccess</OriginalElement>
+          <nodes>
+            <node x="" y="">DataAccess.UserConstants</node>
+            <node x="" y="">DataAccess.DatabaseHandler</node>
+            <node x="" y="">DataAccess.Configurations</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="294.5" y="265.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/fullpackstyling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainPanel.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/AdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/IssuedBookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="123" selection-start-line="56" selection-start-column="123" selection-end-line="56" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/BookInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/BookInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/BookInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IssuedBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataAccess/Configurations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataAccess/UserConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/MySQL_Installation/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
+    <entry file="file://$PROJECT_DIR$/src/styling/fullpackstyling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="220">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations/Shake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1444">
+          <caret line="152" column="35" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/AdminAddBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/FXMLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/SignInController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="484">
+          <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/ReturnBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/ToIssueBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/UserAllIssuedBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1041,37 +1165,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        <state relative-caret-position="238">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataAccess/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="172" column="74" selection-start-line="172" selection-start-column="74" selection-end-line="172" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getUser#0;class#DatabaseHandler#0" />
-            <element signature="method#getAdmin#0;class#DatabaseHandler#0" />
-            <element signature="method#getAllbookInfo#0;class#DatabaseHandler#0" />
-            <element signature="method#addbookInfo#0;class#DatabaseHandler#0" />
-            <element signature="e#4477#4565#0" />
-            <element signature="method#getAlluserInfo#0;class#DatabaseHandler#0" />
-            <element signature="method#deletebooks#0;class#DatabaseHandler#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/AdminAllBooksController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+        <state relative-caret-position="147">
+          <caret line="93" column="91" selection-start-line="93" selection-start-column="91" selection-end-line="93" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainPanelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="418" column="25" lean-forward="true" selection-start-line="418" selection-start-column="25" selection-end-line="418" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1577279742321" expanded="true" signature="13:17961" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1142,7 +1260,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>fontawesomefx-fontawesome-4.7.0-1</last-edited>
+          <last-edited>mysql-connector-java-8.0.18</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
